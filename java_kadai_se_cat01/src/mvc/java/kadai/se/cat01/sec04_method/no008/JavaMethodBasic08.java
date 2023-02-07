@@ -26,7 +26,9 @@ public class JavaMethodBasic08 {
 	}
 
 	// ↓↓↓doubleNumber(int number)定義 ここから↓↓↓
-
+	public static int doubleNumber(int num) {
+		return num * 2;
+	}
 
 
 

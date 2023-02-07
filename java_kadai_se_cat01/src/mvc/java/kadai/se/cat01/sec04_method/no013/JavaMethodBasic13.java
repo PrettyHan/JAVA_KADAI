@@ -24,9 +24,9 @@ package mvc.java.kadai.se.cat01.sec04_method.no013;
 public class JavaMethodBasic13 {
 
 	public static void main(String[] args) {
-
-
-
+		printShape(3, "〇");
+		printShape(6, "△");
+		printShape(12, "□");
 
 	}
 

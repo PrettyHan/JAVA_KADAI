@@ -34,15 +34,15 @@ public class JavaMethodBasic12 {
 
 	}
 
-	public static /* ①コメントを削除して記述 */ printCircle(int count) {
+	public static void printCircle(int count) {
 
-		for (/* ②コメントを削除して記述 */) {
+		String tmp = "";
 
-			/* ③コメントを削除して記述 */
+		for (int i = count ; i > 0; i--) {
+			tmp += "〇";
 
 		}
-
-		System.out.println();
+		System.out.println(tmp);
 		System.out.println("------------------------------");
 
 	}

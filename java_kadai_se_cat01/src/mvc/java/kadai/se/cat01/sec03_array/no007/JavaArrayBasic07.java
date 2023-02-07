@@ -22,10 +22,10 @@ public class JavaArrayBasic07 {
 	public static void main(String[] args) {
 
 		String[] greetings = new String[3];
-		/*
-		 * ①コメントを削除して記述
-		 */
-		showStrArray(/* ②コメントを削除して記述 */);
+		greetings[0] ="おはよう";
+		greetings[1] ="こんにちは";
+		greetings[2] ="こんばんは";
+		showStrArray(greetings);
 
 	}
 

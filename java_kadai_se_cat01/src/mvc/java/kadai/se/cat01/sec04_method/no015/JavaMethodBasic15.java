@@ -48,14 +48,14 @@ public class JavaMethodBasic15 {
 
 		int savingMoney = sMoney;
 
-		if (/* ①コメントを削除して記述 */) {
+		if (sMoney - useMoney < 0) {
 			System.out.println("お金を引き出せません");
-			/* ②コメントを削除して記述 */
+			showSavingMoney(savingMoney);
 			return savingMoney;
 		}
 
 		savingMoney = savingMoney - useMoney;
-		/* ③コメントを削除して記述 */
+		showSavingMoney(savingMoney);
 		return savingMoney;
 
 	}

@@ -31,7 +31,12 @@ public class JavaArrayBasic09 {
 	}
 
 	// ↓↓↓showDivisorメソッド定義 ここから↓↓↓
-
+	public static void showDivisor(int[] test_array) {
+		for(int i : test_array) {
+			if(i % 3 == 0)
+				System.out.printf("%d/", i);
+		}
+	}
 
 
 

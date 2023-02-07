@@ -23,7 +23,7 @@ public class Algorithm11 {
 			reverse = reverse * 10 + digit;
 			x /= 10;
 		}
-		System.out.printf("%dを逆から読むと%dです", tmp, reverse);
+		System.out.printf("%d逆から読むと%dです", tmp, reverse);
 
 		// ---------- ①解答 end ----------
 
@@ -43,7 +43,7 @@ public class Algorithm11 {
 			reverse = reverse * 10 + digit;
 			x /= 10;
 		}
-		System.out.printf("%dを逆から読むと%dです", tmp, reverse);
+		System.out.printf("%d逆から読むと%dです", tmp, reverse);
 
 
 		// ---------- ②解答 end ----------

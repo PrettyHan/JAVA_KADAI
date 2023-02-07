@@ -20,9 +20,9 @@ public class JavaArrayBasic03 {
 	public static void main(String[] args) {
 
 		int[] intArray = new int[3];
-		intArray[1] = 100;
-		intArray[2] = 200;
-		intArray[3] = 300;
+		intArray[0] = 100;
+		intArray[1] = 200;
+		intArray[2] = 300;
 
 		for(int i = 0; i < intArray.length; i++) {
 			System.out.println(intArray[i]);

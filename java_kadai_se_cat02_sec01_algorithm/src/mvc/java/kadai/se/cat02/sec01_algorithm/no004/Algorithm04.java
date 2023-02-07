@@ -41,9 +41,13 @@ public class Algorithm04 {
 		//    **********
 
 		// ---------- ②解答 start ----------
-		for(int i=1 ; i<=3; i++) {
+		x = 3;
+		y = 10;
+
+
+		for(int i=1 ; i<=x; i++) {
 			System.out.println();
-			for(int j =1 ; j<=10; j++) {
+			for(int j =1 ; j<=y; j++) {
 				System.out.printf("*");
 			}
 		}

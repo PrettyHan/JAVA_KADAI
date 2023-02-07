@@ -21,6 +21,8 @@ public class JavaMethodBasic05 {
 		int y = 15; // この変数を利用すること
 		int z = 25; // この変数を利用すること
 
+		int sum2 = sumNumbers(x, y, z);
+		System.out.println(sum2);
 	}
 
 	public static int sumNumbers(int fst, int scd, int trd) {

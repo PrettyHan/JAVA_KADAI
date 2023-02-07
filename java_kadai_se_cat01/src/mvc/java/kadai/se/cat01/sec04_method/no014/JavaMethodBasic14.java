@@ -31,7 +31,13 @@ public class JavaMethodBasic14 {
 	}
 
 	// ↓↓↓printCountメソッド定義 ここから↓↓↓
-
+	public static void printCount(int num) {
+		for(int i = 1; i <= num; i++) {
+			System.out.printf("%d　", i);
+		}
+		System.out.println();
+		System.out.println("------------------------------");
+	}
 
 
 

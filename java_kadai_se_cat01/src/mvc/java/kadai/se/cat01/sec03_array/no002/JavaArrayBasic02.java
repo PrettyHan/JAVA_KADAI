@@ -21,12 +21,12 @@ public class JavaArrayBasic02 {
 		String[] strArray = {"〇","△","×"};
 
 		// 配列にある要素 "△"を取得する
-		System.out.println(/* ①コメントを削除して記述 */);
+		System.out.println(strArray[1]);
 
 		// 配列にある要素 "〇"を取得する
-		System.out.println(/* ②コメントを削除して記述 */);
+		System.out.println(strArray[0]);
 
 		// 配列にある要素 "×"を取得する
-		System.out.println(/* ③コメントを削除して記述 */);
+		System.out.println(strArray[2]);
 	}
 }

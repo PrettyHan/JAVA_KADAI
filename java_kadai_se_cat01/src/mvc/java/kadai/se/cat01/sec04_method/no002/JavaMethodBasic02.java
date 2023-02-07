@@ -17,7 +17,7 @@ public class JavaMethodBasic02 {
 
 	public static void main(String[] args) {
 		String str = "こんにちは！"; // この変数を利用すること
-
+		showMessage(str);
 
 	}
 

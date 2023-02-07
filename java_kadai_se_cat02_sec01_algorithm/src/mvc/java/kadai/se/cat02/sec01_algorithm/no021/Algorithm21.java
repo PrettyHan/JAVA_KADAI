@@ -10,15 +10,30 @@ public class Algorithm21 {
 
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		try {
+			System.out.println("小数を入力してください");
 			// キーボード入力
 			String line = reader.readLine();
-			// 数値への変換
-			int sample = Integer.parseInt(line);
-			System.out.println(sample);
+			System.out.printf("小数:%s%n", line);
+			Double sample = Double.valueOf(line);
+			int answer = round(sample);
+			System.out.printf("四捨五入すると%dです。", answer);
 
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+	}
+
+	public static int round(double x) {
+		char str = String.valueOf(x).charAt(2);
+		int num = Character.getNumericValue(str);
+		if(num >= 5) {
+			x = (x + 1) - (num * 0.1);
+		}
+		else {
+			x = x - (num * 0.1);
+		}
+
+		return (int) x;
 	}
 
 }

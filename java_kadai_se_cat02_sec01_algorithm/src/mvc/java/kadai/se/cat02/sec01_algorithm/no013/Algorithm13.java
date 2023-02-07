@@ -19,8 +19,15 @@ public class Algorithm13 {
 		//    170cm   63.0kg
 
 		// ---------- ①解答 start ----------
+		int x = 150;
+		int y = 170;
+		int z = 5;
+		double weight = 0;
+		for(int i = x; i <= y; i += z) {
+			weight = (i - 100) * 0.9;
+			System.out.printf("%dcm   %.1fkg%n",i,weight);
 
-
+		}
 
 		// ---------- ①解答 end ----------
 
@@ -37,7 +44,15 @@ public class Algorithm13 {
 		//    180cm   72.0kg
 
 		// ---------- ②解答 start ----------
+		x = 140;
+		y = 180;
+		z = 10;
+		weight = 0;
+		for(int i = x; i <= y; i += z) {
+			weight = (i - 100) * 0.9;
+			System.out.printf("%dcm   %.1fkg%n",i,weight);
 
+		}
 
 
 		// ---------- ②解答 end ----------

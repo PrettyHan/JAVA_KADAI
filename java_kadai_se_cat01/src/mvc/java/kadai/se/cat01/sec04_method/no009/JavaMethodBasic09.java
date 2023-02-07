@@ -26,8 +26,12 @@ public class JavaMethodBasic09 {
 	public static void main(String[] args) {
 
 		int nowAge = 10; // この変数を利用すること
-
-
+		nowAge = birthday(nowAge);
+		tellOlder(nowAge);
+		nowAge = birthday(nowAge);
+		tellOlder(nowAge);
+		nowAge = birthday(nowAge);
+		tellOlder(nowAge);
 
 
 	}

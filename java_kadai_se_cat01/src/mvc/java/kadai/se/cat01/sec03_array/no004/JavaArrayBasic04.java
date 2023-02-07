@@ -15,13 +15,10 @@ package mvc.java.kadai.se.cat01.sec03_array.no004;
 public class JavaArrayBasic04 {
 	public static void main(String[] args) {
 
-		String[] strArray = /* ①コメントを削除して記述 */;
-		/*
-		 *  ②コメントを削除して記述
-		 */
+		String[] strArray = {"〇","△","□"};
 
 		for (int i = 0; i < strArray.length; i++) {
-			 /* ③コメントを削除して記述 */
+			 System.out.print(strArray[i]);
 		}
 
 	}

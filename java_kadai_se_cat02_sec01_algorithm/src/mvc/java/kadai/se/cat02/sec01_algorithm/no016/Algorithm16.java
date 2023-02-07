@@ -18,7 +18,15 @@ public class Algorithm16 {
 		//    ***** ***** ***** *****
 
 		// ---------- ①解答 start ----------
-
+		int x = 5;
+		int y = 3;
+		int z = 4;
+		for(int i = 0; i < y; i++) {
+			for(int j = 0; j < z; j++) {
+				System.out.print("*".repeat(x)+ " ");
+			}
+			System.out.println();
+		}
 
 
 		// ---------- ①解答 end ----------
@@ -36,7 +44,15 @@ public class Algorithm16 {
 		//    **** **** **** **** **** ****
 
 		// ---------- ②解答 start ----------
-
+		x = 4;
+		y = 5;
+		z = 6;
+		for(int i = 0; i < y; i++) {
+			for(int j = 0; j < z; j++) {
+				System.out.print("*".repeat(x)+ " ");
+			}
+			System.out.println();
+		}
 
 
 		// ---------- ②解答 end ----------

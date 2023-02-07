@@ -17,7 +17,7 @@ public class JavaMethodBasic04 {
 
 	public static void main(String[] args) {
 
-
+		System.out.println(makeMessage());
 	}
 
 	public static String makeMessage() {

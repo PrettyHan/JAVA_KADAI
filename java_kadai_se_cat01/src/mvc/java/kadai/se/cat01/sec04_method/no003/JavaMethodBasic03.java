@@ -20,7 +20,7 @@ public class JavaMethodBasic03 {
 	public static void main(String[] args) {
 		String str = "こんにちは！"; // この変数を利用すること
 		int count = 30; // この変数を利用すること
-
+		showMessage(str, count);
 	}
 
 	public static void showMessage(String msg, int num) {

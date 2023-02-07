@@ -26,9 +26,9 @@ public class JavaArrayBasic08 {
 
 	public static void main(String[] args) {
 
-        /*
-         * ①コメントを削除して記述
-         */
+        int[] scores = {53, 49, 21, 91, 77};
+
+        showAverage(scores);
 
 	}
 

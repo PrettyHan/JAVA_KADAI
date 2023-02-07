@@ -59,7 +59,10 @@ public class JavaMethodBasic10 {
 	}
 
 	// ↓↓↓runningメソッド定義 ここから↓↓↓
-
+	public static int running(int weight) {
+		System.out.println("ランニングをしました");
+		return weight - 5;
+	}
 
 
 
@@ -67,7 +70,10 @@ public class JavaMethodBasic10 {
 	// ↑↑↑runningメソッド定義 ここまで↑↑↑
 
 	// ↓↓↓walkingメソッド定義 ここから↓↓↓
-
+	public static int walking(int weight) {
+		System.out.println("ウォーキングをしました");
+		return weight - 3;
+	}
 
 
 

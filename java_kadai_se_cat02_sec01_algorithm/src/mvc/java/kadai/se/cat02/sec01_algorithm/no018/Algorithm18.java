@@ -25,8 +25,22 @@ public class Algorithm18 {
 		//    111111111111111111111
 
 		// ---------- ①解答 start ----------
+		int x = 11;
+		int count = 1;
+		for (int i = 0; i < x; i++) {
+			if(count >= 10) {
+				count = 0;
+			}
+			for (int j = 1; j < x - i; j++) {
+				System.out.print(" ");
+			}
+			for (int k = 0; k < i * 2 + 1; k++) {
+					System.out.print(count);
 
-
+			}
+			System.out.println();
+			count++;
+		}
 
 		// ---------- ①解答 end ----------
 
@@ -58,7 +72,22 @@ public class Algorithm18 {
 		//    000000000000000000000000000000000000000
 
 		// ---------- ②解答 start ----------
+		x = 20;
+		count = 1;
+		for (int i = 0; i < x; i++) {
+			if(count >= 10) {
+				count = 0;
+			}
+			for (int j = 1; j < x - i; j++) {
+				System.out.print(" ");
+			}
+			for (int k = 0; k < i * 2 + 1; k++) {
+					System.out.print(count);
 
+			}
+			System.out.println();
+			count++;
+		}
 
 
 		// ---------- ②解答 end ----------

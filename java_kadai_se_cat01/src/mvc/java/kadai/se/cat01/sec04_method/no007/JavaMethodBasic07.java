@@ -26,7 +26,9 @@ public class JavaMethodBasic07 {
 	}
 
 	// ↓↓↓makeMessage()定義 ここから↓↓↓
-
+	public static String makeMessage() {
+		return "おはようございます！";
+	}
 
 
 

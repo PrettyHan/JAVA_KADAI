@@ -19,13 +19,13 @@ public class JavaArrayBasic05 {
 
 		int[] intArray = new int[30];
 
-		for (/* ①コメントを削除して記述 */) {
-			/* ②コメントを削除して記述 */
+		for (int i = 0 ; i < intArray.length ; i++) {
+			intArray[i] = i+1;
 		}
 
 		for (int i = 0; i < intArray.length; i++) {
 			System.out.print(intArray[i]);
-			if (/* ③コメントを削除して記述 */) {
+			if (intArray[i] % 10 == 0) {
 				System.out.println();
 			} else {
 				System.out.print("/");

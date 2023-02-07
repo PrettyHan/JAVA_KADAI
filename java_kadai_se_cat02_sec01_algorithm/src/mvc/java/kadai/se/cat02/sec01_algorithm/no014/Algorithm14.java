@@ -19,7 +19,10 @@ public class Algorithm14 {
 		//    *****
 
 		// ---------- ①解答 start ----------
-
+		int x = 5;
+		for(int i = 1 ; i <= x ; i++) {
+			System.out.println("*".repeat(i));
+		}
 
 
 		// ---------- ①解答 end ----------
@@ -42,7 +45,10 @@ public class Algorithm14 {
 		//    **********
 
 		// ---------- ②解答 start ----------
-
+		x = 10;
+		for(int i = 1 ; i <= x ; i++) {
+			System.out.println("*".repeat(i));
+		}
 
 
 		// ---------- ②解答 end ----------

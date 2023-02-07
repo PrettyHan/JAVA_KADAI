@@ -22,8 +22,8 @@ public class JavaArrayBasic06 {
 		strArray[3] = "え";
 		strArray[4] = "お"; // 表示するときは末尾から順番になりますね
 
-		for (/* ①コメントを削除して記述 */) {
-			System.out.print(/* ②コメントを削除して記述 */);
+		for (int i = strArray.length - 1; i>=0 ; i--) {
+			System.out.print(strArray[i]);
 		}
 
 	}

@@ -38,19 +38,19 @@ public class JavaMethodBasic11 {
 
 	}
 
-	public static int cmpLarger(/* ①コメントを削除して記述 */) {
+	public static int cmpLarger(int a, int b) {
 
-		if(/* ②コメントを削除して記述 */) {
+		if(a > b) {
 
-			return fst; // 第1引数の方が大きい
+			return a; // 第1引数の方が大きい
 
-		} else if(/* ③コメントを削除して記述 */) {
+		} else if(a < b) {
 
-			return scd; // 第2引数の方が大きい
+			return b; // 第2引数の方が大きい
 
 		} else {
 
-			return fst; // 同値の場合
+			return a; // 同値の場合
 
 		}
 

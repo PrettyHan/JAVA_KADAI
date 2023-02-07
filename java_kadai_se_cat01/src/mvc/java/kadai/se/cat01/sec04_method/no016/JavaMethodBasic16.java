@@ -53,19 +53,23 @@ public class JavaMethodBasic16 {
 	public static void showDietPlan(int weight) {
 
 		int goleWeight = 70;
+		int time = 0;
+		int currentweight = weight;
 
-		if (/* ①コメントを削除して記述 */) {
+		if (weight <= 70) {
 			System.out.println("現状あなたに提案するダイエットプランはありません");
 			System.out.println("--------------------------------------------------");
 			return;
 		}
+		else {
+			while(weight > 70) {
+				time++;
+				weight -= 2;
+			}
+		}
 
-		System.out.println("現在の体重は、【" + weight + "kg】です");
-		System.out.print("1か月2kgのペースで減量すると、" + goleWeight + "kgまで");
-
-		/*
-		 * ②コメントを削除して記述
-		 */
+		System.out.println("現在の体重は、【" + currentweight + "kg】です");
+		System.out.println("1か月2kgのペースで減量すると、" + goleWeight + "kgまで"+time+"か月です");
 
 		System.out.println("--------------------------------------------------");
 

@@ -20,12 +20,16 @@ package mvc.java.kadai.se.cat01.sec04_method.no006;
 public class JavaMethodBasic06 {
 
 	public static void main(String[] args) {
-		showMessage();
+
+
+		System.out.println(showMessage());
 
 	}
 
 	// ↓↓↓showMessage()定義 ここから↓↓↓
-
+	public static String showMessage() {
+		return "おはようございます！";
+	}
 
 
 	// ↑↑↑showMessage()定義 ここまで↑↑↑

@@ -14,7 +14,16 @@ public class Algorithm19 {
 		//    ⇒【実行結果】平均身長：173
 
 		// ---------- ①解答 start ----------
+		int[] tallArray = new int[5];
+		tallArray[0] = 158;
+		tallArray[1] = 180;
+		tallArray[2] = 180;
+		tallArray[3] = 190;
+		tallArray[4] = 160;
 
+		int answer = solve(tallArray);
+
+		System.out.println("平均身長："+answer);
 
 
 		// ---------- ①解答 end ----------
@@ -28,12 +37,29 @@ public class Algorithm19 {
 
 		// ---------- ②解答 start ----------
 
+		tallArray[0] = 175;
+		tallArray[1] = 185;
+		tallArray[2] = 180;
+		tallArray[3] = 190;
+		tallArray[4] = 185;
+
+		answer = solve(tallArray);
+
+		System.out.println("平均身長："+answer);
 
 
 		// ---------- ②解答 end ----------
 
 		// ※①と②は変数値を変更する以外のプログラムの差異は認めません。
 
+	}
+
+	public static int solve(int[] arr) {
+		int sum = 0;
+		for(int height : arr) {
+			sum += height;
+		}
+		return Math.round((sum / arr.length));
 	}
 
 }

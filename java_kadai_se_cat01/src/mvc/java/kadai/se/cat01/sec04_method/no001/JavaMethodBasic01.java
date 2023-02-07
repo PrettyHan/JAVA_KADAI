@@ -16,7 +16,7 @@ package mvc.java.kadai.se.cat01.sec04_method.no001;
 public class JavaMethodBasic01 {
 
 	public static void main(String[] args) {
-
+		showMessage();
 
 	}
 

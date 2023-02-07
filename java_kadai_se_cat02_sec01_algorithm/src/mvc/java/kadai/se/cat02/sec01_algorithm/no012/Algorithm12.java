@@ -34,7 +34,7 @@ public class Algorithm12 {
 			System.out.println("3つの値は異なります");
 			break;
 		case(1):
-			System.out.println("2つの値は等しいです");
+			System.out.println("2つの値が等しいです");
 			break;
 		case(2):
 			System.out.println("3つの値は等しいです");
@@ -73,7 +73,7 @@ public class Algorithm12 {
 			System.out.println("3つの値は異なります");
 			break;
 		case(1):
-			System.out.println("2つの値は等しいです");
+			System.out.println("2つの値が等しいです");
 			break;
 		case(2):
 			System.out.println("3つの値は等しいです");

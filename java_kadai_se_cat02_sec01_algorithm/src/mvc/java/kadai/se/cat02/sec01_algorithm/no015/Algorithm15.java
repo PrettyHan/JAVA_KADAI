@@ -19,7 +19,13 @@ public class Algorithm15 {
 		//    *****
 
 		// ---------- ①解答 start ----------
-
+		int x = 5;
+		int count = 1;
+		for(int i = x ; i > 0 ; i--) {
+			System.out.print(" ".repeat(i-1));
+			System.out.println("*".repeat(count));
+			count++;
+		}
 
 
 		// ---------- ①解答 end ----------
@@ -42,7 +48,13 @@ public class Algorithm15 {
 		//    **********
 
 		// ---------- ②解答 start ----------
-
+		x = 10;
+		count = 1;
+		for(int i = x ; i > 0 ; i--) {
+			System.out.print(" ".repeat(i-1));
+			System.out.println("*".repeat(count));
+			count++;
+		}
 
 
 		// ---------- ②解答 end ----------

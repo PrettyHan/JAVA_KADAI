@@ -23,7 +23,13 @@ public class Algorithm17 {
 		//            1
 
 		// ---------- ①解答 start ----------
-
+		int x = 9;
+		int count = 0;
+		for(int i = x ; i >= 1 ; i--) {
+			System.out.println(" ".repeat(count)+x);
+			x--;
+			count++;
+		}
 
 
 		// ---------- ①解答 end ----------
@@ -48,7 +54,13 @@ public class Algorithm17 {
 		//               1
 
 		// ---------- ②解答 start ----------
-
+		x = 12;
+		count = 0;
+		for(int i = x ; i >= 1 ; i--) {
+			System.out.println(" ".repeat(count)+x);
+			x--;
+			count++;
+		}
 
 
 		// ---------- ②解答 end ----------

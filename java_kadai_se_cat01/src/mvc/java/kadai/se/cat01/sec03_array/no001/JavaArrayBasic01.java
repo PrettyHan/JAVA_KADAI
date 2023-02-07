@@ -21,7 +21,7 @@ public class JavaArrayBasic01 {
 	public static void main(String[] args) {
 
 		// 配列の定義
-		/* ①コメントを削除して記述 */ array = /* ②コメントを削除して記述 */;
+		int[] array = {12, 34, 56};
 
 		// 配列に要素を格納する
 		/* ③コメントを削除して記述 */
