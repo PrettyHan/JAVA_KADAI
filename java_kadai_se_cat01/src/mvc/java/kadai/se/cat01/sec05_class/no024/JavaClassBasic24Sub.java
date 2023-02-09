@@ -7,11 +7,10 @@ public class JavaClassBasic24Sub {
 
 	public void addInt(int number) {
 
-		if (/* ①コメントを削除して記述 */) {
-			/*
-			 * ②コメントを削除して記述
-			 */
+		if (count < 10) {
+			intArray[count] = number;
 			System.out.println("[" + number + "]を格納しました");
+			count++;
 		} else {
 			System.out.println("これ以上格納できません");
 		}
@@ -20,9 +19,11 @@ public class JavaClassBasic24Sub {
 
 	public int getAllSum() {
 		int sum = 0;
-		/*
-		 * ③コメントを削除して記述
-		 */
+
+		for(int num : intArray) {
+			sum += num;
+		}
+
 		return sum;
 	}
 

@@ -14,9 +14,21 @@ public class Algorithm24 {
 			String line = reader.readLine();
 			int num = Integer.parseInt(line);
 
+			int answer = factorial(num);
+
+			System.out.printf("%d!=%d%n", num, answer);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 
+	}
+
+	public static int factorial(int num) {
+		int fato = 1 ;
+
+		for(int i=num ; i>0 ; i--) {
+			fato *= i;
+		}
+		return fato;
 	}
 }

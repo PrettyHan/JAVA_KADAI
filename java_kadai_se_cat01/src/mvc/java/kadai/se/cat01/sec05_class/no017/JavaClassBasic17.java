@@ -38,6 +38,10 @@ public class JavaClassBasic17 {
 		String address = "東京都新宿区"; // この変数を利用すること
 		String tel = "03-1234-5678"; // この変数を利用すること
 
+		JavaClassBasic17Obj sub = new JavaClassBasic17Obj(fName, lName, age, gender, postalCode, address, tel);
+
+		showUserInfo(sub);
+
 
 
 	}

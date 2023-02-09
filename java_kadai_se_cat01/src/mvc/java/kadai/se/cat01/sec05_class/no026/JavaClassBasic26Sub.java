@@ -7,20 +7,20 @@ public class JavaClassBasic26Sub {
 
 	public void addMember(JavaClassBasic26Obj uco) {
 
-		/*
-		 *
-		 * ①コメントを削除して記述
-		 *
-		 */
+		if (count < 5) {
+			ucoArray[count] = uco;
+			System.out.println("[" + uco.getfName()+uco.getlName() + "]さんを格納しました");
+			count++;
+		} else {
+			System.out.println("これ以上格納できません");
+		}
 
 	}
-
+// 原正人(24)
 	public void showAllMember() {
 		System.out.println("◆従業員一覧");
-		for (/* ②コメントを削除して記述 */) {
-			/*
-			 * ③コメントを削除して記述
-			 */
+		for (JavaClassBasic26Obj i : ucoArray) {
+			System.out.println(i.getfName()+i.getlName()+"("+i.getAge()+")");
 		}
 	}
 

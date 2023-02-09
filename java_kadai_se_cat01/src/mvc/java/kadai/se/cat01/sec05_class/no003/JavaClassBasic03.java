@@ -18,7 +18,8 @@ package mvc.java.kadai.se.cat01.sec05_class.no003;
 public class JavaClassBasic03 {
 
 	public static void main(String[] args) {
-
+		JavaClassBasic03Sub sub = new JavaClassBasic03Sub();
+		sub.showMessage("こんにちは！", 30);
 
 	}
 

@@ -27,6 +27,8 @@ public class JavaClassBasic10 {
 
 	public static void main(String[] args) {
 
+		JavaClassBasic10Obj sub = new JavaClassBasic10Obj("シンデレラ", 900, "OPST花子");
+		sub.showBookInfo();
 
 
 

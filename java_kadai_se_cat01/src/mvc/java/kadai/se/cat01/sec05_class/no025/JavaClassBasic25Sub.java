@@ -7,18 +7,20 @@ public class JavaClassBasic25Sub {
 
 	public void addStr(String str) {
 
-		/*
-		 *
-		 * ①コメントを削除して記述
-		 *
-		 */
+		if (count < 5) {
+			strArray[count] = str;
+			System.out.println("[" + str + "]を格納しました");
+			count++;
+		} else {
+			System.out.println("これ以上格納できません");
+		}
 
 	}
 
 	public void showAllStrDesc() {
 		System.out.println("◆strArray文字列一覧(新しく格納された順)");
-		for (/* ②コメントを削除して記述 */) {
-			System.out.println(/* ③コメントを削除して記述 */);
+		for (int i = 4 ; i >= 0 ; i--) {
+			System.out.println(strArray[i]);
 		}
 	}
 

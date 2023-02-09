@@ -24,6 +24,15 @@ public class JavaClassBasic22 {
 
 	public static void main(String[] args) {
 
+		JavaClassBasic22Obj sub = new JavaClassBasic22Obj(3,"〇");
+		JavaClassBasic22Sub sub2 = new JavaClassBasic22Sub();
+		JavaClassBasic22Obj sub3 = new JavaClassBasic22Obj(6,"△");
+		JavaClassBasic22Obj sub4 = new JavaClassBasic22Obj(12,"□");
+
+		sub2.printShape(sub);
+		sub2.printShape(sub3);
+		sub2.printShape(sub4);
+
 
 
 

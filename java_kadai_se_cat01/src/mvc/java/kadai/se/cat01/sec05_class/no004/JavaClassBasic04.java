@@ -17,6 +17,8 @@ package mvc.java.kadai.se.cat01.sec05_class.no004;
 public class JavaClassBasic04 {
 
 	public static void main(String[] args) {
+		JavaClassBasic04Sub sub = new JavaClassBasic04Sub();
+		System.out.println(sub.makeMessage());
 
 	}
 

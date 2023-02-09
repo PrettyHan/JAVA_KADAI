@@ -28,11 +28,15 @@ package mvc.java.kadai.se.cat01.sec05_class.no011;
 public class JavaClassBasic11 {
 
 	public static void main(String[] args) {
+		JavaClassBasic11Obj sub = new JavaClassBasic11Obj(4);
 
+		System.out.println(sub.tellOlder());
 		System.out.println("------------------------------");
-
+		sub.birthday();
+		System.out.println(sub.tellOlder());
 		System.out.println("------------------------------");
-
+		sub.birthday();
+		System.out.println(sub.tellOlder());
 		System.out.println("------------------------------");
 
 	}

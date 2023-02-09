@@ -19,7 +19,7 @@ package mvc.java.kadai.se.cat01.sec05_class.no007;
 public class JavaClassBasic07 {
 
 	public static void main(String[] args) {
-		JavaClassBasic07Sub ucs = new JavaClassBasic07Sub();
+		JavaClassBasic07Sub ucs = new JavaClassBasic07Sub("おはようございます！");
 		String str = ucs.makeMessage();
 		System.out.println(str);
 

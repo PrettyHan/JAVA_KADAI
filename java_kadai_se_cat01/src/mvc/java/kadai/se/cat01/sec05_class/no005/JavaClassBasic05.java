@@ -20,6 +20,9 @@ public class JavaClassBasic05 {
 		int x = 10; // この変数を利用してください
 		int y = 15; // この変数を利用してください
 		int z = 25; // この変数を利用してください
+		JavaClassBasic05Sub sub = new JavaClassBasic05Sub();
+		int sum = sub.sumNumbers(x, y, z);
+		System.out.println(sum);
 
 	}
 

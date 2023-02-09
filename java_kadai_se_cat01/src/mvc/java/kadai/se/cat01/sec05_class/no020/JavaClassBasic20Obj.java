@@ -1,33 +1,33 @@
 package mvc.java.kadai.se.cat01.sec05_class.no020;
 
+
+// お引き出し金額：200000
+// 残高：800000
+
 public class JavaClassBasic20Obj {
 
 	private int savingMoney;
 
 	public JavaClassBasic20Obj(int money) {
 		System.out.println("貯金が" + money + "円あります");
-		/*
-		 * ①コメントを削除して記述
-		 */
+		this.savingMoney += money;
 	}
 
 	public void withdrawMoney(int price) {
 		System.out.println("お引き出し金額：" + price);
 
-		if (/* ②コメントを削除して記述 */) {
-			/*
-			 * ③コメントを削除して記述
-			 */
+		if (savingMoney - price < 0) {
+			System.out.println("お金を引き出せません");
 		}
-		/*
-		 * ④コメントを削除して記述
-		 */
+
+		else {
+			this.savingMoney = (savingMoney - price);
+		}
+
 	}
 
 	public void showSavingMoney() {
-		/*
-		 * ⑤コメントを削除して記述
-		 */
+		System.out.println("残高:"+ (savingMoney));
 	}
 
 }

@@ -19,6 +19,9 @@ public class JavaClassBasic02 {
 	public static void main(String[] args) {
 		String str = "こんにちは！"; // この変数を利用してください
 
+		JavaClassBasic02Sub sub = new JavaClassBasic02Sub();
+		sub.showMessage(str);
+
 	}
 
 }

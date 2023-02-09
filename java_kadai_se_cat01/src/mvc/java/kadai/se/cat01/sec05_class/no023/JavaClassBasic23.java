@@ -31,7 +31,19 @@ public class JavaClassBasic23 {
 
 	public static void main(String[] args) {
 
+		JavaClassBasic23Obj1 sub = new JavaClassBasic23Obj1(100000);
+		JavaClassBasic23Obj2 sub2 = new JavaClassBasic23Obj2();
+		sub.withdrawMoney(20000);
+		sub.showSavingMoney();
+		sub2.addMoney(20000);
+		sub2.showKeepMoney();
+
 		System.out.println("------------------------------");
+		JavaClassBasic23Obj1 sub3 = new JavaClassBasic23Obj1(80000);
+		sub3.withdrawMoney(45000);
+		sub3.showSavingMoney();
+		sub2.addMoney(45000);
+		sub2.showKeepMoney();
 
 		System.out.println("------------------------------");
 

@@ -17,7 +17,9 @@ package mvc.java.kadai.se.cat01.sec05_class.no001;
 public class JavaClassBasic01 {
 
 	public static void main(String[] args) {
+		JavaClassBasic01Sub sub = new JavaClassBasic01Sub();
 
+		sub.showMessage();
 	}
 
 }

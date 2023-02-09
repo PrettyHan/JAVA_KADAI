@@ -15,20 +15,19 @@ public class JavaClassBasic27Sub {
 		int count = 0;
 
 		// 戻り値として返す配列に必要な要素数を算出する
-		for (/* ①コメントを削除して記述 */) {
-			if(/* ②コメントを削除して記述 */) {
+		for (int i = 1 ; i < 30 ; i ++) {
+			if(i % number == 0) {
 				count++;
 			}
 		}
 
-		int[] divisorIntArray = new int[count];
+		int[] divisorIntArray = new int[count+1];
 		count = 0; //カウントリセット
 
-		for (/* ③コメントを削除して記述 */) {
-			if(/* ④コメントを削除して記述 */) {
-				/*
-				 * ⑤コメントを削除して記述
-				 */
+		for (int i = 1 ; i <= 30 ; i++) {
+			if(i % number == 0) {
+				divisorIntArray[count] = i;
+				count++;
 			}
 		}
 		return divisorIntArray;

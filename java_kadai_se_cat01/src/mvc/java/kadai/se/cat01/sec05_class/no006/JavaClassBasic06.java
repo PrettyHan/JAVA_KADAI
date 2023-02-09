@@ -19,7 +19,8 @@ package mvc.java.kadai.se.cat01.sec05_class.no006;
 public class JavaClassBasic06 {
 
 	public static void main(String[] args) {
-		JavaClassBasic06Sub ucs = new JavaClassBasic06Sub();
+		String str = "おはようございます！";
+		JavaClassBasic06Sub ucs = new JavaClassBasic06Sub(str);
 		ucs.showMessage();
 
 	}

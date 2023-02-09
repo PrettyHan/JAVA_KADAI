@@ -26,9 +26,18 @@ package mvc.java.kadai.se.cat01.sec05_class.no014;
 public class JavaClassBasic14 {
 
 	public static void main(String[] args) {
+		JavaClassBasic14Obj sub = new JavaClassBasic14Obj("ひーちゃん",0);
+		JavaClassBasic14Sub sub2 = new JavaClassBasic14Sub(sub);
 
+		JavaClassBasic14Obj sub3 = new JavaClassBasic14Obj("フェニックス",10000);
+		JavaClassBasic14Sub sub4 = new JavaClassBasic14Sub(sub3);
+
+
+		sub2.stroke();
+		sub2.celebrate();
 		System.out.println("------------------------------");
-
+		sub4.stroke();
+		sub4.celebrate();
 	}
 
 }
